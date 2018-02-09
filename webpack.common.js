@@ -112,5 +112,11 @@ module.exports = {
       template: "src/bottles/index.html",
       chunks: ["bottles"],
     }),
+
+    new HtmlWebpackPlugin({
+      filename: "add_bottles.html",
+      template: "src/add_bottle/index.html",
+      chunks: ["add_bottles"],
+    }),
   ],
 };
